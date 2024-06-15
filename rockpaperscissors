@@ -28,8 +28,6 @@ def play_game():
     print(f"Computer chose: {computer_choice}")
     result = determine_winner(player_choice, computer_choice)
     print(result)
-
-# Main game loop
 while True:
     play_game()
     play_again = input("Do you want to play again? (yes/no): ").lower()
